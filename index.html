@@ -2,11 +2,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hotel Palme Camayenne</title>
-    <!-- Link to the CSS file -->
     <link rel="stylesheet" href="styles.css">
-    <!-- Icon library -->
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
-</head>
 </head>
 <body>
     <header class="header">
@@ -20,19 +17,18 @@
                 </div>
             </div>
             <ul class="nav__links" id="nav-links">
-                <li><a href="#home">Accueille</a></li>
-                <li><a href="#about">A propos</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
                 <li><a href="#service">Services</a></li>
-                <li><a href="#explore">Explorez</a></li>
+                <li><a href="#explore">Explore</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
-            <button class="btn nav__btn">Bookez Ici</button>
+            <button class="btn nav__btn">Book Here</button>
         </nav>
         <div class="section_container header_container" id="home">
-            <p>Vous etes chez le meilleur endroit</p>
-            <h1>Bienvenue chez <br />Hotel <span>Palme Camayenne</span> de Guinee</h1>
+            <p>You are at the best place</p>
+            <h1>Welcome to <br />Hotel <span>Palme Camayenne</span> of Zimbabwe</h1>
         </div>
-
     </header>
 
     <section class="section_container booking_container">
@@ -40,52 +36,53 @@
             <div class="input__group">
                 <span><i class="ri-calendar-line"></i></span>
                 <div>
-                    <label for="check-in">ENREGISTREMENT</label>
-                    <input type="text" placeholder="enregistrement">
+                    <label for="check-in">CHECK-IN</label>
+                    <input type="text" placeholder="Check-in">
                 </div>
             </div> 
             <div class="input__group">
                 <span><i class="ri-calendar-line"></i></span>
                 <div>
-                    <label for="check-out">VERIFICATION</label>
-                    <input type="text" placeholder="verification">
+                    <label for="check-out">CHECK-OUT</label>
+                    <input type="text" placeholder="Check-out">
                 </div>
             </div> 
             <div class="input__group">
                 <span><i class="ri-user-fill"></i></span>
                 <div>
-                    <label for="guest">CLIENT</label>
-                    <input type="text" placeholder="client">
+                    <label for="guest">GUEST</label>
+                    <input type="text" placeholder="Guest">
                 </div>
             </div>
             <div class="input_group input_btn">
-                <button class="btn">SORTIE</button>
+                <button class="btn">Submit</button>
             </div>
         </form>
     </section>
+
     <section class="section_container about_container" id="about">
         <div class="about__image">
             <img src="images/bg.png" alt="">
         </div>
         <div class="about__content">
-            <p class="section__subheader">A PROPOS DE NOUS</p>
-            <h2 class="section__header">Nous avons le meilleur endroit pour votre sejour</h2>
+            <p class="section__subheader">ABOUT US</p>
+            <h2 class="section__header">We have the best place for your stay</h2>
             <p class="section__description">
-                L’hôtel palme Camayenne vous offre la possibilité de rester sans contraintes,
-                 avec des meubles de haute qualité,
-                 connexions internet gratuite, vous 
-                 permet aussi de louer des voitures pendant tout au
-                  long de votre séjour.
+                Hotel Palme Camayenne offers you the possibility to stay without constraints,
+                with high-quality furniture,
+                free internet connection, and
+                allows you to rent cars throughout
+                your stay.
             </p>
             <div class="about__btn">
-                <button class="btn">Lire</button>
+                <button class="btn">Read More</button>
             </div>
         </div>
     </section>
 
     <section class="section_container room_container">
-        <p class="section__subheader">NOS CHAMBRES OPERATIONNELLES</p>
-        <h2 class="section__header">Vivez au meilleur endroit Chez Palme Camayenne</h2>
+        <p class="section__subheader">OUR AVAILABLE ROOMS</p>
+        <h2 class="section__header">Live at the best place at Palme Camayenne</h2>
         <div class="room__grid">
             <!-- Room 1 -->
             <div class="room__card">
@@ -98,13 +95,13 @@
                     </div>
                 </div>
                 <div class="room_card_details">
-                    <h4>Chambre pour 2 adultes</h4>
-                    <p>Elle vous permet de vivre avec votre conjoint(e).</p>
-                    <h5>Le prix commence <span>200GNF/nuit</span></h5>
-                    <button class="btn">Prenez</button>
+                    <h4>Room for 2 Adults</h4>
+                    <p>It allows you to live with your spouse.</p>
+                    <h5>Price starts at <span>200GNF/night</span></h5>
+                    <button class="btn">Book</button>
                 </div>
             </div>
-        
+
             <!-- Room 2 -->
             <div class="room__card">
                 <div class="room_card_image">
@@ -116,13 +113,13 @@
                     </div>
                 </div>
                 <div class="room_card_details">
-                    <h4>Appartement entier</h4>
-                    <p>Vivez dans un appartement entier avec tout à l'intérieur.</p>
-                    <h5>Le prix commence <span>500GNF/nuit</span></h5>
-                    <button class="btn">Prenez</button>
+                    <h4>Entire Apartment</h4>
+                    <p>Live in a full apartment with everything inside.</p>
+                    <h5>Price starts at <span>500GNF/night</span></h5>
+                    <button class="btn">Book</button>
                 </div>
             </div>
-        
+
             <!-- Room 3 -->
             <div class="room__card">
                 <div class="room_card_image">
@@ -134,10 +131,10 @@
                     </div>
                 </div>
                 <div class="room_card_details">
-                    <h4>Vue sur Mer</h4>
-                    <p>La chambre vous donne le confort de voir la mer.</p>
-                    <h5>Le prix commence <span>150GNF/nuit</span></h5>
-                    <button class="btn">Prenez</button>
+                    <h4>Sea View</h4>
+                    <p>The room offers you the comfort of seeing the sea.</p>
+                    <h5>Price starts at <span>150GNF/night</span></h5>
+                    <button class="btn">Book</button>
                 </div>
             </div>
         </div>        
@@ -147,23 +144,23 @@
         <div class="section_container service_container">
             <div class="service__content">
                 <p class="section__subheader">SERVICES</p>
-                <h2 class="section__subheader">Vivez le meilleur.</h2>
+                <h2 class="section__subheader">Experience the best.</h2>
                 <ul class="service__list">
                     <li>
                         <span><i class="ri-shield-star-fill"></i></span>
-                        La sécurité est bien assurée
+                        Security is well ensured
                     </li>
                     <li>
-                        <span><i class="ri-24-hours-line"></i></i></span>
-                        Nous sommes ouvert 24h/24
+                        <span><i class="ri-24-hours-line"></i></span>
+                        We are open 24/7
                     </li>
                     <li>
                         <span><i class="ri-customer-service-line"></i></span>
-                        Chambre de conference
+                        Conference room
                     </li>
                     <li>
                         <span><i class="ri-map-2-line"></i></span>
-                        Notre assistant touristique 
+                        Our tourist assistant
                     </li>
                 </ul>
             </div>
@@ -174,31 +171,31 @@
         <div class="banner__content">
             <div class="banner__card">
                 <h4>25+</h4>
-                <p>Chambres disponible</p>
+                <p>Rooms available</p>
             </div> 
             <div class="banner__card">
                 <h4>350+</h4>
-                <p>Deja Bookez</p>
+                <p>Already Booked</p>
             </div> 
             <div class="banner__card">
                 <h4>600+</h4>
-                <p>Heureux clients</p>
+                <p>Happy clients</p>
             </div>
         </div>
     </section>
-    
+
     <section class="explore" id="explore">
-        <p class="section__subheader">Explorez</p>
-        <h2 class="section__header">La bonne nouvelle today.</h2>
+        <p class="section__subheader">Explore</p>
+        <h2 class="section__header">The good news today.</h2>
         <div class="explore__bg">
             <div class="explore__content">
-                <p class="section__description">12 DECEMBRE 2024</p>
-                <h4>Un nouveau Menu est disponible chez Palme</h4>
-                <button class="btn">continuez</button>
+                <p class="section__description">12 DECEMBER 2024</p>
+                <h4>A new menu is now available at Palme</h4>
+                <button class="btn">Continue</button>
             </div>
         </div>
-        
     </section>
+
     <footer class="footer" id="contact">
         <div class="section_container footer_container">
             <div class="footer__col">
@@ -206,14 +203,14 @@
                     <a href="#home"><img src="images/logo.png" alt="logo"></a>
                 </div>
                 <p class="section__description">
-                    Découvrez le meilleur pour rester 
-                    Chez Palme Camayenne avec un comfort
-                    Inoubliable et des services et de haute qualité.
+                    Discover the best place to stay
+                    at Palme Camayenne with unforgettable
+                    comfort and high-quality services.
                 </p>
-                <button class="btn">Bookez Maintenant</button>
+                <button class="btn">Book Now</button>
             </div>
             <div class="footer__col">
-                <h4>CONTACTEZ NOUS</h4>
+                <h4>CONTACT US</h4>
                 <ul class="footer__links">
                     <li><a href="#">palmcamayenne@info.com</a></li>
                 </ul>
@@ -221,15 +218,15 @@
                     <a href="#"><i class="ri-facebook-box-fill"></i></a>
                     <a href="#"><i class="ri-instagram-fill"></i></a>
                     <a href="#"><i class="ri-twitter-x-fill"></i></a>
-                    <a href="#"><i class="ri-google-fill"></i></i></a>
+                    <a href="#"><i class="ri-google-fill"></i></a>
                 </div>
             </div>
         </div>
         <div class="footer__bar">
-            Copyright &copy2024 Thierno Madiou Diallo
+            Copyright &copy2024 Leroy Nyasha Mangwarara
         </div>
     </footer>
-    
+
     <script src="https://unpkg.com/scrollreveal"></script>
     <script src="myscript.js"></script>
 </body>
