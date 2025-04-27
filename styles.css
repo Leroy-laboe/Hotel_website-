@@ -19,7 +19,7 @@ nav {
   align-items: center;
   justify-content: space-between;
   padding: 20px 10%;
-  background-color: #fff;
+  background-color: 
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
   position: sticky;
   top: 0;
@@ -67,7 +67,7 @@ nav {
 
 /* Header */
 .header {
-  background: url('images/header-bg.jpg') no-repeat center center/cover;
+  background: url('images/room3.png') no-repeat center center/cover;
   height: 100vh;
   color: #fff;
   display: flex;
@@ -249,7 +249,7 @@ nav {
 
 /* Explore */
 .explore {
-  background: url('images/explore-bg.jpg') no-repeat center center/cover;
+  background: url('images/room3.png') no-repeat center center/cover;
   height: 400px;
   position: relative;
   display: flex;
